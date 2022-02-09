@@ -56,7 +56,7 @@ select * from customer;
 
 -- Create first savepoint
 
-savepoint sp1;
+-- savepoint sp1;
 
 -- Delete row from table
 
@@ -64,7 +64,7 @@ delete from customer where store_state='KA' and cust_id='1001';
 
 -- create second savepoint
 
-savepoint sp2;
+-- savepoint sp2;
 
 -- View Table Data
 
@@ -72,7 +72,7 @@ select * from customer;
 
 -- Rollback to first savepoint
 
-rollback to sp1;
+-- rollback to sp1;
 
 -- View Table Data
 
