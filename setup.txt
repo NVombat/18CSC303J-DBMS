@@ -1,0 +1,10 @@
+username - Reg_Num/Reg_Num@drmeenakshi-01.c6hfisyr3ugy.us-east-1.rds.amazonaws.com:1521/O1
+
+spool name_of_file.lst
+
+# INSERT COMMANDS HERE
+# DO LAB WORK
+
+spool exit
+
+edit name_of_file.lst
